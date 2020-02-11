@@ -180,9 +180,10 @@ target 'WordPress' do
 
     pod 'Gridicons', '~> 0.16'
 
-    pod 'WordPressAuthenticator', '~> 1.10.7'
+    #pod 'WordPressAuthenticator', '~> 1.10.7'
     # pod 'WordPressAuthenticator', :git => 'https://github.com/wordpress-mobile/WordPressAuthenticator-iOS.git', :branch => ''
     # pod 'WordPressAuthenticator', :path => '../WordPressAuthenticator-iOS'
+    pod 'WordPressAuthenticator', :path => '/Users/thuycopeland/WordPressAuthenticator-iOS/'
 
     pod 'MediaEditor', '~> 1.0.0'
     # pod 'MediaEditor', :git => 'https://github.com/wordpress-mobile/MediaEditor-iOS.git', :commit => 'a4178ed9b0f3622faafb41dd12503e26c5523a32'
