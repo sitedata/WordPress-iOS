@@ -2,8 +2,8 @@ source 'https://rubygems.org' do
   gem 'rake'
   gem 'cocoapods', '~> 1.8.0'
   gem 'xcpretty-travis-formatter'
-  gem 'octokit', "~> 4.0"
-  gem 'fastlane', "2.141.0"
+  gem 'octokit', '~> 4.14', '>= 4.14.0'
+  gem 'fastlane', '2.141.0'
   gem 'dotenv'
   gem 'rubyzip', "~> 1.3"
   gem 'commonmarker'
